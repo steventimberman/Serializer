@@ -14,9 +14,11 @@ Serializes a 2-dimensional numpy array using the necessary data. Can be used to 
    array_bytes (bytes): 2D numpy array's data as bytes
   ``` 
 **EXAMPLE** 
+
 We assume NP_ARRAY_1 is a numpy array object, array_type is a defined type of the numpy array, array_shape is a tuple of 2 values, and array_bytes are a byte type format of the data
   ```
   serialized_array_1 = NpArraySerializer2D(array_type=array_type, array_shape=array_shape, array_bytes=array_bytes)
   serialized_array_2 = NpArraySerializer2D(np_array=NP_ARRAY_1)
   ```
-**Both of these examples return an object with the same capabilities, where you can retrieve the numpy array itself, along with the type, shape, and byte data of the array.**
+
+Both of these examples return an object with the same capabilities, where you can retrieve the numpy array itself, along with the type, shape, and byte data of the array.
