@@ -18,8 +18,13 @@ Serializes a 2-dimensional numpy array using the necessary data. Can be used to 
    ``` 
 **EXAMPLE** 
 
-We assume NP_ARRAY_1 is a numpy array object, array_type is a defined type of the numpy array, array_shape is a tuple of 2 values, and array_bytes are a byte type format of the data
+Below, NP_ARRAY_1 is a numpy array object, array_type is a defined type of the numpy array, array_shape is a tuple of 2 values, and array_bytes are a byte type format of the data
   ```
+  NP_ARRAY_1 = np.random.randint(1,11, (10,10))
+  array_type = NP_ARRAY_1.dtype.name #type string
+  array_shape = NP_ARRAY_1.shape #(10,10)
+  array_bytes = NP_ARRAY_1.tobytes() #type bytes
+
   serialized_array_1 = NpArraySerializer2D(array_type=array_type, array_shape=array_shape, array_bytes=array_bytes)
   serialized_array_2 = NpArraySerializer2D(np_array=NP_ARRAY_1)
   ```
