@@ -1,6 +1,7 @@
 # Serializer (For 2D Numpy Arrays)
 
-## NpArraySerializer2D: Serializes a 2-dimensional numpy array using the necessary data. Can be used to send the array across a network (ie. via remote procedure call or api call).
+### NpArraySerializer2D: 
+Serializes a 2-dimensional numpy array using the necessary data. Can be used to send the array across a network (ie. via remote procedure call or api call).
 
 ### CAN BE USED WITH TWO CONSTRUCTORS, WITH DIFFERENT KEYWORD ARGUMENTS AS INPUTS. BE EXACT!:
   Inputs:
