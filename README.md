@@ -8,12 +8,14 @@ Serializes a 2-dimensional numpy array using the necessary data. Can be used to 
    ```
    np_array: the 2D numpy array you wish to serialize
    ```
+   
     OR
-  ```
+    
+   ```
    array_type: type of the numpy array
    array_shape: shape of the array
    array_bytes (bytes): 2D numpy array's data as bytes
-  ``` 
+   ``` 
 **EXAMPLE** 
 
 We assume NP_ARRAY_1 is a numpy array object, array_type is a defined type of the numpy array, array_shape is a tuple of 2 values, and array_bytes are a byte type format of the data
