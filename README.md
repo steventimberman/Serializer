@@ -5,7 +5,9 @@ Serializes a 2-dimensional numpy array using the necessary data. Can be used to 
 
 **CAN BE USED WITH TWO CONSTRUCTORS, WITH DIFFERENT KEYWORD ARGUMENTS AS INPUTS. BE EXACT!:**
   Inputs:
-   - np_array: the 2D numpy array you wish to serialize
+   ```
+   np_array: the 2D numpy array you wish to serialize
+   ```
    
    OR
   ```
