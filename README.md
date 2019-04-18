@@ -29,4 +29,4 @@ Below, NP_ARRAY_1 is a numpy array object, array_type is a defined type of the n
   serialized_array_2 = NpArraySerializer2D(np_array=NP_ARRAY_1)
   ```
 
-Both of these examples return an object with the same capabilities, where you can retrieve the numpy array itself, along with the type, shape, and byte data of the array.
+Both of these examples return an object with the same capabilities, where you can retrieve the numpy array itself, along with the type, shape, and byte data of the array. *These two serialized array objects are equal.*
